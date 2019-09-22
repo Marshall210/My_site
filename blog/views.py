@@ -22,5 +22,4 @@ def post_list(request):
     context = {}
     context['posts'] = posts
     return render(request, 'blog/post_list.html', context)
-
 '''
